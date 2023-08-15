@@ -7,7 +7,7 @@ public class KDV {
         Scanner scn = new Scanner(System.in);
 
         System.out.print("Tutar giriniz: ");
-        tutar = scn.nextInt();
+        tutar = scn.nextDouble();
 
         if (tutar >= 1000) {
             System.out.println("KDV Tutari (% 8) = " + ((tutar * kdv_8) - tutar));
